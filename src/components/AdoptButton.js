@@ -1,21 +1,20 @@
-import React, {PropTypes} from 'react'
-import Button from './elements/Button'
+import React, { PropTypes } from "react";
+import Button from "./elements/Button";
+import RaisedButton from "material-ui/RaisedButton";
 
-const AdoptButton = ({available, onAdoptClick}) => {
+const AdoptButton = ({ available, onAdoptClick }) => {
   if (!available) {
-    return <p className="text-muted">Adopted!</p>
+    return <p className="text-muted">Adopted!</p>;
   }
 
   return (
-    <Button onClick={onAdoptClick} color="success">
-      Adopt Me!
-    </Button>
-  )
-}
+    <RaisedButton onClick={onAdoptClick} label={"Adopt Me!"} primary={true} />
+  );
+};
 
 AdoptButton.propTypes = {
   available: PropTypes.bool.isRequired,
-  onAdoptClick: PropTypes.func.isRequired,
-}
+  onAdoptClick: PropTypes.func.isRequired
+};
 
-export default AdoptButton
+export default AdoptButton;

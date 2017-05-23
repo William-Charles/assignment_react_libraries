@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import JumbotronFluid from './elements/JumbotronFluid'
-import PuppyListContainer from '../containers/PuppyListContainer'
-import AddPuppyContainer from '../containers/AddPuppyContainer'
+import React, { Component } from "react";
+import JumbotronFluid from "./elements/JumbotronFluid";
+import PuppyListContainer from "../containers/PuppyListContainer";
+import AddPuppyContainer from "../containers/AddPuppyContainer";
 
 class App extends Component {
   render() {
@@ -20,4 +20,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default App;
