@@ -1,8 +1,14 @@
-[![Express Logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](http://expressjs.com/)
-
-# [Julie](https://julie-travel-planner.herokuapp.com/), an AI for exploring cities. .
+# [Julie](https://julie-travel-planner.herokuapp.com/), an AI for exploring cities.  
 
   [![NPM Version][npm-image]][npm-url]
+
+
+### About
+
+  Julie is a simple AI that takes in to account your location and preferences and
+  helps you plan your day 3 options at a time. Julie will calculate travel time and
+  estimate the amount of time you are likely to spend at various locations through
+  an algorithm that derives a length of time based the type of location. The
 
 ## Technology
 
@@ -15,9 +21,6 @@
   * Google API
   * Foursquare API
 
-### About
-
-If you discover a security vulnerability in Express, please see [Security Policies and Procedures](Security.md).
 
 ## Quick Start
 
