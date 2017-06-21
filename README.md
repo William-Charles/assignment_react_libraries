@@ -10,6 +10,8 @@
   of the device or browser she is being accessed from. Users are able to use the app to
   without logging in and are able to login with Facebook to save the itinerary for viewing
   in the future.
+  
+#
 
 ## Technology
 
