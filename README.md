@@ -31,18 +31,17 @@
 $ npm install
 ```
 
+Start the server:
+
+```bash
+$ nodemon server/server.js
+```
+
 Start the client:
 
 ```bash
 $ cd client
 $ npm start
-$ cd ..
-```
-
-  Start the server:
-
-```bash
-$ nodemon server/server.js
 ```
 
 ## Test client
@@ -61,6 +60,7 @@ $ jasmine
 
 ```bash
 $ npm install
+$ cd server
 $ jasmine
 ```
 
@@ -71,6 +71,3 @@ $ jasmine
 [Renzo Tomlinson](https://github.com/rttomlinson)  
 [William Whitworth](https://github.com/William-Charles)
 
-## License
-
-  [MIT](LICENSE)
